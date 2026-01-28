@@ -4,9 +4,11 @@ export default defineConfig({
     test: {
         projects: [
             {
-                test: {include: [
-                    './src/**/*.{test,spec}.ts'
-                ]}
+                test: {
+                    include: [
+                        './src/**/*.{test,spec}.ts'
+                    ]
+                }
             }
         ]
     }
